@@ -19,7 +19,6 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
   String email;
   String password;
 
-  FirebaseApp defaultApp = Firebase.app();
 
   @override
   Widget build(BuildContext context) {
